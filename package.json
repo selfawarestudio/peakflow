@@ -1,0 +1,31 @@
+{
+  "name": "peakflow",
+  "version": "0.0.2",
+  "description": "Peakflow is an Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.",
+  "homepage": "https://github.com/selfawarestudio/peakflow",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selfawarestudio/peakflow.git"
+  },
+  "license": "MIT",
+  "author": "Mike Wagz",
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "unpkg": "dist/cdn.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "alpinejs": "^3.13.3",
+    "esbuild": "^0.19.11",
+    "gsap": "^3.12.4"
+  },
+  "dependencies": {
+    "just-debounce-it": "^3.2.0",
+    "smitter": "^1.1.1"
+  },
+  "peerDependencies": {
+    "alpinejs": "^3.13.3",
+    "gsap": "^3.12.4"
+  }
+}
