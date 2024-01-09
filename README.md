@@ -40,6 +40,8 @@ In addition to the usual `init` and `destroy` lifecycle methods available within
 | `raf`          | Animation loop powered by GSAP Ticker. Runs every frame |
 | `pointermove`  | Runs on pointermove                                     |
 
+\* _Used rarely, but can come in handy for scheduling complex responsive logic_
+
 Peakflow also adds several dynamic values to the global `$store`:
 
 | Name           | Description                               |
@@ -48,8 +50,6 @@ Peakflow also adds several dynamic values to the global `$store`:
 | `windowHeight` | `window.innerHeight`                      |
 | `pointerX`     | X coordinate of pointer (`event.clientX`) |
 | `pointerY`     | Y coordinate of pointer (`event.clientY`) |
-
-\* _Used rarely, but can come in handy for scheduling complex responsive logic_
 
 ### Responsive directive
 
