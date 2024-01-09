@@ -16,10 +16,6 @@ Peakflow uses GSAP's `ticker` for a global animation loop, ensuring smooth and s
 
 **Required Version:** GSAP >= 3.0.0
 
-#### Installation
-
-Install GSAP using npm:
-
 ```zsh
 npm install gsap
 ```
