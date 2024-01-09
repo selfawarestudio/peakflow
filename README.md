@@ -4,6 +4,30 @@
 
 Peakflow is a powerful Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.
 
+## Installation
+
+```zsh
+npm install peakflow alpinejs
+```
+
+### Peer Dependencies
+
+Our library leverages GSAP for its powerful animation capabilities. To use our library, ensure that you have GSAP installed in your project.
+
+**Required Version:** GSAP >= 3.0.0
+
+#### Why GSAP?
+
+We use GSAP's `ticker` for a global animation loop, ensuring smooth and synchronized animations across your application.
+
+#### Installation
+
+Install GSAP using npm:
+
+```zsh
+npm install gsap
+```
+
 ## Features
 
 ### Simplified setup
@@ -105,30 +129,4 @@ Alpine.plugin(
 )
 
 Alpine.start()
-```
-
-### Installation
-
-```zsh
-npm install peakflow alpinejs
-```
-
-## Peer Dependencies
-
-### GSAP
-
-Our library leverages GSAP for its powerful animation capabilities. To use our library, ensure that you have GSAP installed in your project.
-
-**Required Version:** GSAP >= 3.0.0
-
-#### Why GSAP?
-
-We use GSAP's `ticker` for a global animation loop, ensuring smooth and synchronized animations across your application.
-
-#### Installation
-
-Install GSAP using npm:
-
-```zsh
-npm install gsap
 ```
