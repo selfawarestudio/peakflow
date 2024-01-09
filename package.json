@@ -1,7 +1,7 @@
 {
   "name": "peakflow",
-  "version": "0.0.2",
-  "description": "Peakflow is an Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.",
+  "version": "0.0.3",
+  "description": "An Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.",
   "homepage": "https://github.com/selfawarestudio/peakflow",
   "repository": {
     "type": "git",

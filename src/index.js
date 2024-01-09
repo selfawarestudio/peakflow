@@ -8,24 +8,6 @@ export const peakflow = ({ components = {}, store = {} }) => {
   const { emit, on } = smitter()
 
   return (Alpine) => {
-    Alpine.magic('rect', (el) => {
-      const getRect = (el) => el?.getBoundingClientRect?.()
-      const rect = getRect(el)
-
-      if (rect) {
-        getRect.width = rect.width
-        getRect.height = rect.height
-        getRect.top = rect.top
-        getRect.right = rect.right
-        getRect.bottom = rect.bottom
-        getRect.left = rect.left
-        getRect.x = rect.x
-        getRect.y = rect.y
-      }
-
-      return getRect
-    })
-
     Object.entries(store).forEach(([key, value]) => Alpine.store(key, value))
 
     resize()
