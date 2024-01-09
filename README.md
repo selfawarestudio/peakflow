@@ -12,13 +12,9 @@ npm install peakflow alpinejs
 
 ### Peer Dependencies
 
-Our library leverages GSAP for its powerful animation capabilities. To use our library, ensure that you have GSAP installed in your project.
+Peakflow uses GSAP's `ticker` for a global animation loop, ensuring smooth and synchronized animations across your application. To use Peakflow, ensure that you have GSAP installed in your project.
 
 **Required Version:** GSAP >= 3.0.0
-
-#### Why GSAP?
-
-We use GSAP's `ticker` for a global animation loop, ensuring smooth and synchronized animations across your application.
 
 #### Installation
 
