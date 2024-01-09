@@ -110,7 +110,7 @@ Alpine.start()
 ### Installation
 
 ```zsh
-npm install peakflow alpinejs gsap
+npm install peakflow alpinejs
 ```
 
 ## Peer Dependencies
