@@ -20,8 +20,6 @@ export const peakflow = ({ components = {}, store = {} }) => {
       emit('afterResize')
     }
 
-    Alpine.store('pointerX', window.innerWidth / 2)
-    Alpine.store('pointerY', window.innerHeight / 2)
     document.addEventListener('pointermove', pointermove)
     function pointermove(ev) {
       Alpine.store('pointerX', ev.clientX)
