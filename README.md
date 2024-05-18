@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Peakflow is a powerful Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.
+Peakflow is an experimental Alpine.js plugin that simplifies common workflows for crafting rich, animated experiences on the web.
 
 ## Installation
 
